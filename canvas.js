@@ -7,8 +7,8 @@ canvas.height = window.innerHeight;
 var c = canvas.getContext('2d');
 
 //reactangle
-//c.fillStyle = "rgba(255, 0, 0, 0.5)";
-//c.fillRect(100, 100, 50, 500); // draw reactable
+c.fillStyle = "rgba(255, 0, 0, 0.5)";
+c.fillRect(100, 100, 50, 500); // draw reactable
 
 //line
 c.beginPath();
@@ -16,13 +16,13 @@ c.moveTo(50,50);
 c.lineTo(100, 50);
 c.lineTo(100, 100);
 c.strokeStyle = "#020123";
-//c.stroke(); // draw line
+c.stroke(); // draw line
 
 //arc - circle
 c.beginPath();
 c.arc(300, 300, 30, 0, Math.PI *2, false);
-//c.strokeStyle = "#020123";
-//c.stroke(); // draw circle
+c.strokeStyle = "#020123";
+c.stroke(); // draw circle
 
 // for(var i=0; i<10; i++){
 //      let  x = Math.random() * window.innerWidth; 
