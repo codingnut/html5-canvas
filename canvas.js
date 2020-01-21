@@ -1,4 +1,3 @@
-console.log("Hello");
 var canvas = document.querySelector('canvas');
 
 
